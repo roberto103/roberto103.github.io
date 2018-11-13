@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, helvetica, arial, sans-serif;
+}
+
+/* Sections do site */
+section.intro{
+	position: relative;
+	height: 100vh;
+	background-image: linear-gradient(-225deg, rgba(80, 80, 80, 0.65) 0%, rgba(0, 0, 0, 0.65) 20%),url(../img/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.projetos{
+	background-image: url(../img/portfolio-bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.conhecimentos{
+	height: 100vh;
+	background: url(../img/pattern-1la.png) bottom center no-repeat #00a8a8;
+	background-size: cover;
+}
+/* Sections do site */
+
+
+
+/* Tags do site */
+strong{
+	color: #00ceff;
+	font-weight: 400;
+}
+
+section.intro .col{
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 90vh;
+}
+
+section.intro .arrow{
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	display: block;
+	width: auto;
+	margin: 0 auto;
+}
+
+section.intro h1{
+	display: inline-block;
+	font-size: 2.66667em;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #fff;
+	text-transform: lowercase;
+}
+
+section.projetos h1{
+	font-size: 2.66667em;
+	font-weight: 200;
+	line-height: 1;
+	margin: 1.5em 0 .5em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+section.conhecimentos h1{
+	font-size: 2.66667em;
+	font-weight: 200;
+	line-height: 1;
+	margin: 1.5em 0 .5em;
+	color: #fff;
+	text-transform: uppercase;
+}
+/* Tags do site */
