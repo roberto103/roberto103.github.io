@@ -30,6 +30,11 @@ section.conhecimentos{
 
 
 /* Tags do site */
+p{
+	font-size: 15px;
+	color: white;
+}
+
 strong{
 	color: #00ceff;
 	font-weight: 400;
