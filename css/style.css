@@ -26,12 +26,14 @@ section.conhecimentos{
 	height: 100vh;
 	background: url(../img/pattern-1la.png) bottom center no-repeat #2980b9;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 section.contato{
 	height: 100vh;
 	background: url(../img/pattern-2rb.png) bottom center no-repeat #dcdde1;
 	background-size: cover;
+	background-attachment: fixed;
 }
 /* Sections do site */
 
