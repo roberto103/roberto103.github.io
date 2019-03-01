@@ -69,7 +69,7 @@
 		</section>
 
 		<!-- Contato -->
-		<section class="contact">
+		<section class="contato">
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
@@ -79,10 +79,31 @@
 				<div class="row">
 					<div class="col s12">
 						<form class="contact-form" method="POST">
-							<input type="text" class="contact-form-text" name="" placeholder="Seu nome">
-							<input type="email" class="contact-form-text" name="" placeholder="Seu email">
-							<textarea class="contact-form-text" name="" placeholder="Sua mensagem"></textarea>
-							<input type="submit" class="contact-form-btn" value="Enviar">
+							
+							<div class="row">
+								<div class="input-field col s12">
+									<input id="nome" type="text" class="validate darken-4-text form-text">
+									<label class="active" for="nome">Seu nome</label>
+								</div>
+
+								<div class="input-field col s6">
+									<input id="email" type="email" class="validate darken-4-text form-text">
+									<label for="email">Email</label>
+									<span class="helper-text" data-error="Email invalido!" data-success="right"></span>
+								</div>
+
+								<div class="input-field col s6">
+									<input id="Assunto" type="text" class="validate darken-4-text form-text">
+									<label for="Assunto">Assunto</label>
+								</div>
+
+								<div class="input-field col s12">
+									<textarea id="msg" class="materialize-textarea darken-4-text form-text"></textarea>
+									<label for="msg">Sua mensagem</label>
+								</div>
+
+								<input type="submit" class="contact-form-btn" value="Enviar" disabled>
+							</div>
 						</form>
 					</div>
 				</div>
@@ -91,5 +112,6 @@
 
 	</main>
 
+	<script src="js/materialize.min.js"></script>
 </body>
 </html>
