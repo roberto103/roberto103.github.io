@@ -24,13 +24,13 @@ section.projetos{
 
 section.conhecimentos{
 	height: 100vh;
-	background: url(../img/pattern-1la.png) bottom center no-repeat #21759b;
+	background: url(../img/pattern-1la.png) bottom center no-repeat #2980b9;
 	background-size: cover;
 }
 
-section.contact{
+section.contato{
 	height: 100vh;
-	background: url(../img/pattern-2rb.png) bottom center no-repeat #6e5494;
+	background: url(../img/pattern-2rb.png) bottom center no-repeat #dcdde1;
 	background-size: cover;
 }
 /* Sections do site */
@@ -123,28 +123,6 @@ li {
 	padding: 0 auto;
 }
 
-.contact-form-text{
-	display: block;
-	width: 100%;
-	box-sizing: border-box;
-	margin: 16px 0;
-	border: 0;
-	background-color: #111111e3 !important;
-	padding: 20px;
-	outline: none;
-	color: #ddd;
-	transition: 0.5s;
-}
-
-.contact-form-text:focus{
-	box-shadow: 0 0 10px 4px #34495e;
-}
-
-textarea.contact-form-text{
-	resize: none;
-	height: 120px;
-}
-
 .contact-form-btn{
 	float: right;
 	border: 0;
@@ -158,6 +136,11 @@ textarea.contact-form-text{
 
 .contact-form-btn:hover{
 	background-color: #2980b9;
+}
+
+.contact-form-btn:disabled{
+	background-color: #b2bec3;
+	cursor: not-allowed;
 }
 /* Formulario de contato */
 
